@@ -1,4 +1,4 @@
-import DemiGod from "./pages/DemiGod";
+import DemiGod from "./pages/DemiGod/DemiGod";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Battle from "./pages/Battle";
 import Base from "./pages/Base";

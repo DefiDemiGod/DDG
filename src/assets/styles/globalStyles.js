@@ -77,7 +77,6 @@ const GlobalStyles = createGlobalStyle`
         top: -7px;
         left: -7px;
         padding: 7px;
-        box-shadow: 0 0 0 4px rgba(193,0,0,0.5);
         -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
         -webkit-transform: scale(.8);
         -moz-transition: -moz-transform 0.2s, opacity 0.2s;
@@ -128,10 +127,8 @@ const GlobalStyles = createGlobalStyle`
         position: absolute;
         display: flex;
         align-items: flex-start;
-        // left: 53rem;
-        // top: 28rem;
-        left: 40%;
-        top: 36%;
+        left: 35%;
+        top: 40%;
 
         &--second{
             left: 61%;
@@ -139,25 +136,23 @@ const GlobalStyles = createGlobalStyle`
         }
 
         &--third{
-            left: 20%;
-            top: 73%;
-
-            .character-info{
-                top: -10rem;
-            }
+            left: 9.5%;
+            top: 38%;
         }
 
         &--fourth{
-            left: 82%;
-            top: 50%;
+            left: 89.5%;
+            top: 40%;
 
             .character-info{
                 margin-left: -42rem;
             }
         }
     }
+
     .character-info{
-        background-color: ${variables.WHITE_COLOR};
+        box-shadow: 0 10px 16px 0 rgba(255, 255, 255, 0.1);
+        background-color: rgba(17, 17, 17, 0.8);
         position: relative;
         display: none;
         padding: 2.5rem;
@@ -174,7 +169,6 @@ const GlobalStyles = createGlobalStyle`
             height: 100%;
             content:'';
             border-radius: 2.5rem;
-            border: 4px solid rgba(255,255,255,0.4);
             z-index: 0;
         }
 
@@ -187,6 +181,7 @@ const GlobalStyles = createGlobalStyle`
         }
 
         span{
+            color: ${variables.WHITE_COLOR};
             display: inline-flex;
             width: 12rem;
             font-size: 1.8rem;

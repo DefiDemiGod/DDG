@@ -18,6 +18,7 @@ import DiscordIcon from "../../../assets/images/discord.png";
 import SwapIcon from "../../../assets/images/swap.png";
 import StakeIcon from "../../../assets/images/stake.png";
 import ChartIcon from "../../../assets/images/chart.png";
+import Marketplace from "../../../assets/images/marketplace.png";
 
 const SidebarContainer = styled.div`
   background-color: ${variables.BLACK_COLOR};
@@ -163,7 +164,6 @@ const Sidebar = () => {
         </li>
       </ul>
 
-      <SubTitle>Marketplace</SubTitle>
       <ul className="sidebar-navigation">
         <li>
           <SidebarLink
@@ -193,6 +193,16 @@ const Sidebar = () => {
               src={ChartIcon}
             />
             Chart
+          </SidebarLink>
+        </li>
+        <li>
+          <SidebarLink
+            to="/base"
+          >
+            <img
+              src={Marketplace}
+            />
+            Marketplace
           </SidebarLink>
         </li>
 
