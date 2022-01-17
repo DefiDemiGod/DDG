@@ -2,9 +2,9 @@
 import React, { useMemo, useState } from "react";
 import cn from "classnames";
 import BgPatternSmall1 from "./../../assets/images/bg-pattern-s-1.png";
-import BgPatternLarge1 from "./../../assets/images/bg-pattern-l-1.png";
+import BgPatternLarge1 from "./../../assets/images/bg-pattern-l-1.jpeg";
 import BgPatternSmall2 from "./../../assets/images/bg-pattern-s-2.png";
-import BgPatternLarge2 from "./../../assets/images/bg-pattern-l-2.png";
+import BgPatternLarge2 from "./../../assets/images/bg-pattern-l-2.jpeg";
 import DropIcon from "./../../assets/images/drop.png";
 import addIcon from "./../../assets/images/add.png";
 import characterOne from "./../../assets/images/character-2.png";

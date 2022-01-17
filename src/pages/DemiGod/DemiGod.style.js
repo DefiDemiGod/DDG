@@ -28,6 +28,9 @@ const UserStatus = styled.div`
 const Banner = styled.div`
   position: relative;
   margin-top: 4rem;
+  height: calc(100vh - 18rem);
+  overflow: hidden;
+  border-radius: 1rem;
 
   img {
     max-width: 100%;
@@ -55,7 +58,7 @@ const Banner = styled.div`
     display: flex;
     justify-content: space-between;
     left: 0;
-    bottom: 4rem;
+    bottom: 7rem;
     width: 100%;
 
     li {
@@ -92,7 +95,7 @@ const Banner = styled.div`
 const DropArrow = styled.div`
   position: absolute;
   text-align: center;
-  bottom: -3rem;
+  bottom: 1rem;
   width: 100%;
 
   a {

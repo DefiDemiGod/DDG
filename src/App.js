@@ -8,14 +8,14 @@ import "slick-carousel/slick/slick-theme.css";
 import GlobalStyles from "./assets/styles/globalStyles";
 
 const App = () => (
-	<AppProvider>
-		<GlobalStyles />
-		<Router>
-			<Layout>
-				<AppRoutes />
-			</Layout>
-		</Router>
-	</AppProvider>
+  <AppProvider>
+    <GlobalStyles />
+    <Router>
+      <Layout>
+        <AppRoutes />
+      </Layout>
+    </Router>
+  </AppProvider>
 );
 
 export default App;

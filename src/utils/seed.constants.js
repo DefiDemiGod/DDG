@@ -1,6 +1,7 @@
-import characterTwo from "./../assets/images/character-1.png";
-import characterOne from "./../assets/images/character-2.png";
+import characterTwo from "./../assets/images/character-2.png";
+import characterOne from "./../assets/images/character-1.png";
 import characterThree from "./../assets/images/character-3.png";
+import characterFour from "./../assets/images/character-1.png";
 
 export const charterList = [
 	{
@@ -37,7 +38,7 @@ export const charterList = [
 	{
 		id: 4,
 		name: "Kin Jom",
-		avatar: characterOne,
+		avatar: characterFour,
 		uid: "797748893",
 		warpaintColor: "blue",
 		warpaint: "Standard",

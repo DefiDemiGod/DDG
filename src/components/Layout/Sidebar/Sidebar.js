@@ -30,6 +30,21 @@ const SidebarContainer = styled.div`
   top: 0;
   left: 0;
 
+  &::-webkit-scrollbar-track{
+    background-color: ${variables.GREY_COLOR_THREE};
+  }
+
+  &::-webkit-scrollbar{
+    background-color: ${variables.BLACK_COLOR};
+    width: 0.8rem;
+  }
+
+  &::-webkit-scrollbar-thumb{
+    background-color: ${variables.BLACK_COLOR};
+    border: 0.2rem solid ${variables.BLACK_COLOR};
+    border-radius: 1rem;
+  }
+
   .sidebar-brand-logo {
     display: block;
     width: 21rem;
