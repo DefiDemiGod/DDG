@@ -110,9 +110,7 @@ const DemiGod = () => {
 				)}
 			</CharacterInfo>
 
-			<Banner>
-				<img src={pageBgImageLarge} alt="banner" />
-
+			<Banner bgImg={pageBgImageLarge}>
 				<div className="effect-character">
 					<div className="hover-effect effect sub-b">
 						<span className="white-border"></span>

@@ -118,17 +118,17 @@ const Main = styled.div`
   background-size: cover;
 
   &::-webkit-scrollbar-track{
-    background-color: ${variables.GREY_COLOR_THREE};
+    background-color: ${variables.BLACK_COLOR};
   }
 
   &::-webkit-scrollbar{
-    background-color: ${variables.BLACK_COLOR};
+    background-color: ${variables.GREY_COLOR_THREE};
     height: 1rem;
   }
 
   &::-webkit-scrollbar-thumb{
-    background-color: ${variables.BLACK_COLOR};
-    border: 0.2rem solid ${variables.BLACK_COLOR};
+    background-color: ${variables.GREY_COLOR_THREE};
+    border: 0.2rem solid ${variables.GREY_COLOR_THREE};
     border-radius: 1rem;
   }
 `;

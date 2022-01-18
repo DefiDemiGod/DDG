@@ -2,6 +2,8 @@ import { variables } from "../../assets/styles/variables";
 import styled from "styled-components";
 import prevIcon from "../../assets/images/back.png";
 import nextIcon from "../../assets/images/next.png";
+import BgPatternLarge1 from "./../../assets/images/bg-pattern-l-1.jpeg";
+import BgPatternLarge2 from "./../../assets/images/bg-pattern-l-2.jpeg";
 
 const Heading = styled.main`
   color: ${variables.WHITE_COLOR};
@@ -26,6 +28,8 @@ const UserStatus = styled.div`
 `;
 
 const Banner = styled.div`
+  background: url(${(props) => (props.bgImg)});
+  background-size: cover;
   position: relative;
   margin-top: 4rem;
   height: calc(100vh - 18rem);
