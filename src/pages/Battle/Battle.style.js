@@ -78,8 +78,9 @@ const CardWrapper = styled.div`
 
     .image-wrapper img {
       width: 100%;
-      height: 17rem;
-      margin-top: 2rem;
+      max-width: 60%;
+      // height: 17rem;
+      margin-top: 3rem;
     }
 
     .button-wrapper button {

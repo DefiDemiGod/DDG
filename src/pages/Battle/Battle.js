@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import BattleWonModal from "./BattleWonModal/BattleWonModal";
 import { Heading, Container, CardWrapper, Main, Divider } from "./Battle.style";
-
-import ImgPlanet from "../../assets/images/neptune-planet.png";
 import ImgBattle from "../../assets/images/battle-white.png";
 
 const Battle = () => {
@@ -14,14 +12,14 @@ const Battle = () => {
         <Heading>Battle</Heading>
         <Container>
           <div className="battle-width">
-          {Array(10)
+          {Array(8)
             .fill(0)
             .map((e, inx) => (
               <CardWrapper bottom={inx % 2 ? true : false} key={inx}>
                 <div className="box-wrapper">
                   <Divider>
                     <div className="circle">
-                      <img src={ImgBattle} alt="icon" />
+                    <img src={ImgBattle} alt="icon" />
                     </div>
                     <hr className="divider" />
                   </Divider>
@@ -39,7 +37,7 @@ const Battle = () => {
                     </div>
                   </div>
                   <div className="image-wrapper">
-                    <img src={ImgPlanet} alt="icon" />
+                    <img src={require(`../../assets/images/battle${inx + 1}.png`).default} alt="Battle" />
                   </div>
                   <div className="button-wrapper">
                     <button
